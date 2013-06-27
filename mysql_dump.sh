@@ -8,6 +8,7 @@
 
 MYSQL = 'which mysqlump';
 if [[ $(whoami) == root ]]; then
+  echo "Enter pass for Super-user"
   read PASS;
 fi
 DATE='date --date="today" +%F'
