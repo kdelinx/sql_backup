@@ -1,5 +1,11 @@
 #!/bin/bash
 
+###################################
+#This script make for exec backup #
+#Develope by Afonin Artem         #
+#by nickname of kdelinx           #
+###################################
+
 MYSQL = 'which mysqlump';
 if [[ $(whoami) == root ]]; then
   read PASS;
