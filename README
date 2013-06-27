@@ -1,1 +1,11 @@
 There are scripts on Bash, has made for backup at smth database servers
+
+- mysql_dump.sh 
+  * chmod +x mysql_dump.sh 
+  * ./mysql_dump.sh
+  * wait progres...
+  
+- pgsql_dump.sh
+  * chmod +x pgsql_dump.sh
+  * ./pgsql_dump.sh
+  * and wait progres...
